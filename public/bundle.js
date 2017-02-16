@@ -44,6 +44,8 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	var ReactDOM = __webpack_require__(1);
 	var React = __webpack_require__(177);
 	var routes = __webpack_require__(178);
@@ -21500,6 +21502,8 @@
 /* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	var React = __webpack_require__(177);
 	var ReactRouter = __webpack_require__(179);
 	var Router = ReactRouter.Router;
@@ -27174,6 +27178,8 @@
 /* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	var React = __webpack_require__(177);
 	var Link = __webpack_require__(179).Link;
 	var connect = __webpack_require__(243).connect;
@@ -27181,10 +27187,10 @@
 	var Layout = React.createClass({
 	    displayName: 'Layout',
 
-	    _handleClick: function () {
+	    _handleClick: function _handleClick() {
 	        alert();
 	    },
-	    render: function () {
+	    render: function render() {
 	        var custom = this.props.custom;
 	        return React.createElement(
 	            'html',
@@ -28892,11 +28898,13 @@
 /* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	var React = __webpack_require__(177);
 
 	module.exports = React.createClass({
 	    displayName: 'Index',
-	    render: function () {
+	    render: function render() {
 	        return React.createElement(
 	            'p',
 	            null,
@@ -28914,11 +28922,13 @@
 /* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+
 	var React = __webpack_require__(177);
 
 	module.exports = React.createClass({
 	    displayName: 'About',
-	    render: function () {
+	    render: function render() {
 	        return React.createElement(
 	            'p',
 	            null,
