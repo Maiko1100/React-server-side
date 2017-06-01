@@ -21504,21 +21504,26 @@
 
 	'use strict';
 
-	var React = __webpack_require__(177);
+	var _react = __webpack_require__(177);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 	var ReactRouter = __webpack_require__(179);
 	var Router = ReactRouter.Router;
 	var Route = ReactRouter.Route;
 	var IndexRoute = ReactRouter.IndexRoute;
 	var browserHistory = ReactRouter.browserHistory;
 
-	module.exports = React.createElement(
+	module.exports = _react2.default.createElement(
 	    Router,
 	    { history: browserHistory },
-	    React.createElement(
+	    _react2.default.createElement(
 	        Route,
 	        { path: '/', component: __webpack_require__(242) },
-	        React.createElement(IndexRoute, { component: __webpack_require__(271) }),
-	        React.createElement(Route, { path: 'about', component: __webpack_require__(272) })
+	        _react2.default.createElement(IndexRoute, { component: __webpack_require__(271) }),
+	        _react2.default.createElement(Route, { path: 'about', component: __webpack_require__(272) })
 	    )
 	);
 
